@@ -5,6 +5,7 @@ body {
 	-webkit-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 }
-div{
-	border-color: black
+.nav-position{
+	positon: relative;
+	left: 120%;
 }
