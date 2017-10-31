@@ -5,9 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url("//fonts.googleapis.com/css?family=Quicksand");
+@import url('//fonts.googleapis.com/css?family=Quicksand');
+@import url('//fonts.googleapis.com/css?family=Montserrat')；
 html {
-  font-family: Quicksand;
+  font-family: Montserrat;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -57,6 +58,7 @@ section {
 }
 
 h1 {
+  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -319,6 +321,7 @@ template {
   p,
   h2,
   h3 {
+    font-family: Quicksand;
     orphans: 3;
     widows: 3;
   }
@@ -3855,7 +3858,6 @@ tbody.collapse.show {
   list-style: none;
 }
 .nav-position{
-  positon: relative;
   left: 120%;
 }
 .nav-link {
