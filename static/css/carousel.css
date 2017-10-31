@@ -8,6 +8,11 @@ body {
   color: #5a5a5a;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
