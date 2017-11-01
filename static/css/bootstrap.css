@@ -5,8 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url('//fonts.googleapis.com/css?family=Quicksand');
-@import url('//fonts.googleapis.com/css?family=Montserrat')；
 html {
   font-family: Montserrat;
   line-height: 1.15;
@@ -29,31 +27,31 @@ section {
 
 @media (min-width: 858px) {
     html {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 780px) {
     html {
-        font-size: 11px;
+        font-size: 17px;
     }
 }
 
 @media (min-width: 702px) {
     html {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
 @media (min-width: 724px) {
     html {
-        font-size: 9px;
+        font-size: 13px;
     }
 }
 
 @media (max-width: 623px) {
     html {
-        font-size: 8px;
+        font-size: 11px;
     }
 }
 
@@ -4419,7 +4417,7 @@ tbody.collapse.show {
 .navbar-inverse .navbar-nav .active > .nav-link,
 .navbar-inverse .navbar-nav .nav-link.open,
 .navbar-inverse .navbar-nav .nav-link.active {
-  color: white;
+  color: #993333;
 }
 
 .navbar-inverse .navbar-toggler {
