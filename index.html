@@ -14,7 +14,7 @@
     <!-- Bootstrap core CSS -->
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/homepage.css" rel="stylesheet">
-
+    
     <!-- Custom styles for this template -->
     <link href="static/css/carousel.css" rel="stylesheet">
     <style>
@@ -31,6 +31,7 @@
       }
     </style>
     <link href="static/css/style.css" type ="text/css" rel="stylesheet">
+    <link href="static/lightbox/dist/css/lightbox.css" rel="stylesheet">
   </head>
   <body>
 
@@ -153,13 +154,41 @@
       <img src="static/img/timeline.jpg.png" style="width: 100%; height: 30%;">
 
     </div>
+    
+    <div id="artwork">
+      <h2><b>PAST ARTWORKS</b></h2>
+      <hr style="
+      	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100px;
+            border: solid;
+            border-color: #e0b4b4;
+            ">
+      <div class="arts">
+	<div class="pre">
+	<h4>PRELIMINARY ROUND</h4>
+	<a href="static/img/pre/fs1.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs1.jpg"></a>
+        <a href="static/img/pre/fs2.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs2.jpg"></a> 
+	<a href="static/img/pre/fs3.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs3.jpg"></a>
+	<a href="static/img/pre/fs4.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs4.jpg"></a>
+	<a href="static/img/pre/fs5.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs5.jpg"></a>
+	<a href="static/img/pre/fs6.jpg" data-lightbox="prel"><img class="crop" src="static/img/pre/fs6.jpg"></a>
+	</div>
+        <div class="fin">
+	<h4>FINAL ROUND</h4>
+	<a href="static/img/fin/f1.jpg" data-lightbox="final"><img class="crop" src="static/img/fin/f1.jpg"></a>
+        <a href="static/img/fin/f2.jpg" data-lightbox="final"><img class="crop" src="static/img/fin/f2.jpg"></a>
+        <a href="static/img/fin/f3.png" data-lightbox="final"><img class="crop" src="static/img/fin/f3.png"></a>
+	</div>
+      </div>
+    </div>    
 
     <!-- /END THE FEATURETTES -->
     <div class="container marketing">
 
       <!-- FOOTER -->
       <footer>
-      <p class="float-right"><a href="">Back to top</a>
+	      <!--  <p class="float-right"><a href="">Back to top</a> -->
       </footer>
     </div>
 
@@ -172,4 +201,4 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="static/js/bootstrap.min.js"></script>
-
+    <script src="static/lightbox/dist/js/lightbox-plus-jquery.js"></script>

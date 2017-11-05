@@ -11,4 +11,49 @@ p {
 
 .poster {
     border: white 10px solid;
+} 
+
+#artwork {
+  position: relative;
+  clear: both;
+  width: 100%;
+  background-color: #811537;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  margin: 0 auto;
+}
+
+
+
+.arts {
+   width: 100%;
+   margin: 0 auto;
+}
+
+.pre {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+img.crop {
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border: 3px solid white;
+}
+
+.crop {
+  margin: 10px 10px;
+}
+
+.fin {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
