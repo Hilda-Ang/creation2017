@@ -19,12 +19,11 @@ p {
   width: 100%;
   background-color: #811537;
   text-align: center;
-  padding-top: 8%;;
   color: white;
   margin: 0 auto;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
-
-
 
 .arts {
    width: 100%;
@@ -56,4 +55,8 @@ img.crop {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+
+a:hover {
+  filter: brightness(125%);
 }
