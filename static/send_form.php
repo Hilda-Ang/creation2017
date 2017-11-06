@@ -1,10 +1,10 @@
 <?php
-if(isset($_POST['submit'])) {
+if(isset($_GET['submit'])) {
      $email_to = "hildaang22@gmail.com";
-     $email_subject = $_POST['subject'];
-     $name = $_POST['name'];
-     $email_from = $_POST['email'];
-     $message = $_POST['message'];
+     $email_subject = $_GET['subject'];
+     $name = $_GET['name'];
+     $email_from = $_GET['email'];
+     $message = $_GET['message'];
      function clean_string($string) {
 	$bad = array("content-type","bcc:","to:","cc:","href");
 	return str_replace($bad,"",$string);
